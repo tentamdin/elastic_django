@@ -1,0 +1,10 @@
+Elastic search with django
+
+<form method="get">
+  <input id="q" name="q" type="text" placeholder="Search ..." />
+</form>
+
+{% for item in posts %} {{item.id}} {{item.title}} {{item.description}}
+{{item.image}} {{item.body}}
+<br />
+{% endfor %}
